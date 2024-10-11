@@ -7,7 +7,7 @@ version: 1.0 (DE)
 
 >This script provides time series analysis for Sentinel-2 based chlorophyll-a concentrations in water. <br>
 First, satellite scenes were processed with the SeNtinel Applications Platform and the inbuilt Case 2 Regional CoastColor processor (C2RCC), using the C2X-Complex neural net. The results were exported with the PixEx operator (v1.3) without spatial aggregation. <br>
-Here, the pixel information of each scene is aggregated and scene-wise statistics are calculated. Then, data is plotted as a time series (chl-a vs. time) and compared with in situ data (validation). Finally, trophic state Indices are calculated and presented as a time series.
+Here, the pixel information of each scene is aggregated and scene-wise statistics are calculated. Then, data is plotted as a time series (chl-a vs. time) and compared with in situ data (validation). Finally, trophic state indices are calculated and presented as a time series.
 
 ## **Software versions:**
 
